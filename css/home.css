@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+.simple{
+	display: flex;
+	justify-content: space-between;
+}
+.all{
+	background: slategrey;
+    background: url(../amafoto/MYPRO/content.jfif);
+    min-height: 100vh;
+	min-width: 62em;
+	margin-left: 22.1pc;
+	padding-top: 7pc;
+	display: flex;
+	justify-content: flex-end;
+}
+.un{
+	display: flex;
+    position:fixed;
+    justify-content: center;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    height: 100px;
+    /* min-width: 100%; */
+	background: rgb(30, 22, 37);
+	color: white;
+
+}
+.dance{
+	display: flex;
+	justify-content: center;
+color: white;
+text-align: center;
+border-top-style: hidden;
+border-left-style: hidden;
+border-right-style: hidden;
+border-bottom-style: groove;
+border-bottom: 1px solid grey;
+}
+.bar{
+    display: flex;
+    position: fixed;
+    /* justify-content: ; */
+	flex-direction: column;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: groove;
+    border-bottom: 5px solid grey;
+    min-width: 100%;
+	background: rgb(11, 12, 12);
+	
+
+}
+.semifoot{
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    color: white;
+}
+.ih{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}.ih > ul > li{
+	font-size: 16px;
+
+}
+.class{
+   background: linear-gradient(to left, rgb(247, 55, 7) ,rgb(240, 187, 12));
+   padding: 10px 20px ;
+   border-radius: 50px;
+}
+.class:hover{
+   background: linear-gradient(to left, rgb(253, 207, 4) ,rgb(180, 243, 7));
+   font-weight: 600;    
+
+}
+.unique{
+    background: rgba(0, 0, 0, 0);
+
+}
+.unique:hover{
+   background: linear-gradient(to left,rgb(180, 243, 7) ,rgb(253, 207, 4));
+    
+
+}
+li{
+    list-style: none;
+
+}
+.links{
+    display: flex;
+    list-style: none;
+    padding: 10px 10px ;
+    /* padding-top: 20px ; */
+}
+.links > li{
+    display: flex;
+    list-style: none;
+    padding: 0px 20px;
+    
+
+}
+.nlink{
+text-decoration: none;
+color: white;
+font-weight: 500;    
+}
+
+.footer{
+    background: #01071b;
+    width: 350px;
+    justify-content: space-around;
+    padding: 20px 0px;
+	position: fixed;
+	height: 600px;
+	margin-top: 110px;
+	border-right: 5px solid gray;
+	color: white;
+
+}
+.linker > li{
+    display: flex;
+    list-style: none;
+    padding: 10px 10px ;
+}
+.unicorn{
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: rgb(175, 232, 255);
+    border-left-style: hidden;
+    border-top-style: groove;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    border-top: 1px solid grey;
+    padding: 10px 0px ;
+}
+.testmony{
+    width: 15pc;
+    height: 15pc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+   
+
+}
+.System{
+    background: url(../amafoto/MYPRO/images.png);
+    background-size: cover;
+    object-fit: fill;
+}
+.Website{
+    background: url(../amafoto/MYPRO/like.jfif);
+    background-size: cover;
+    object-fit: fill;
+}
+.Database{
+    background: url(../amafoto/MYPRO/system.jfif);
+    background-size: cover;
+    object-fit: fill;
+}
+.Programming{
+    background: url(../amafoto/MYPRO/prog.jfif);
+    background-size: cover;
+    object-fit: fill;
+}
+.circle{
+  
+    width: 9pc;
+    height: 9pc;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px rgb(0, 255, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.circle1{
+	
+	background-size: cover;
+  
+    
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	position: center;
+	margin-left: 50px;
+   
+}
+.circle{
+    text-align: center;
+}
+.testmony >  h2{
+    font-size: 15px;
+
+}
+.mr{
+	background: linear-gradient(to left, rgb(247, 55, 7) ,rgb(240, 187, 12));
+	color: white;
+	font-size: 28px;
+	
+}
+.foote{
+	display: flex;
+	flex-direction: row;
+		background: #08090e;
+		justify-content: space-around;
+		padding: 20px 0px;
+		/* margin-top: -13px; */
+		max-height: fit-content;
+		width: 74%;
+		margin-left: 26%;
+		
+	
+}
+.buttons{
+	
+	width: 15pc;
+	height: 20pc;
+	margin: 95px 0px;
+	left: 10px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.buttons > button{
+	
+padding: 10px 20px;
+transition: 4s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 10px;
+	border: none;
+	background: rgb(46, 82, 82);
+	color: white;
+	box-shadow: 0px 0px 20px rgb(246, 250, 252),
+			inset 0px 0px 60px rgb(0, 0, 0),
+				 0px 0px 10px rgb(0, 164, 230),
+			inset 0px 0px 10px rgb(0, 0, 0);
+			width: 150px;
+		}
+.buttons > button:hover{
+
+	box-shadow: inset 0px 0px 10px rgb(246, 250, 252),
+			 0px 0px 60px rgb(0, 0, 0),
+			 inset	 0px 0px 10px rgb(0, 164, 230),
+			 0px 0px 10px rgb(0, 0, 0);
+}
+
+
+
+.circle1{
+	height: 300px;
+	width: 100%;	
+	animation: animite 60s linear infinite;	
+}
+
+/*.mypic:before{
+		background: url(./11.jpg);
+}*/
+@keyframes animite {
+	
+	0%{
+		background:url(../amafoto/MYPRO/host.jfif);
+		background-size: cover;
+		
+		width: 12px;
+		box-shadow: 0px 0px 30px rgb(0, 255, 255);
+		color:darkorange;
+	}
+	10%{
+		background: url(../amafoto/MYPRO/prog.jfif);
+		background-size: cover;
+		width: 100%;
+		box-shadow: 0px 0px 30px rgb(0, 255, 13);
+		color:white;
+
+	}
+	20%{
+		background: url(../amafoto/MYPRO/like.jfif);
+		background-size: cover;
+		width: 50%;
+		box-shadow: 0px 0px 30px orange;
+		color:darkmagenta;
+
+	}
+	30%{
+		background: url(../amafoto/MYPRO/deve.jfif);
+		background-size: cover;
+		width: 80%;
+		box-shadow: 0px 0px 30px yellow;
+		color:red;
+	}
+	40%{
+		background: url(../amafoto/MYPRO/images.png);
+		background-size: cover;
+		width: 40%;
+		box-shadow: 0px 0px 30px greenyellow;
+		color:yellow;
+
+	}
+	50%{
+		background: url(../amafoto/MYPRO/busineweb.jpg);
+		background-size: cover;
+		width: 60%;
+		box-shadow: 0px 0px 30px olive;
+		color:green;
+	}
+	60%{
+		background: url(../amafoto/MYPRO/coding.png);
+		background-size: cover;
+		width: 20%;
+		box-shadow: 0px 0px 30px olivegreen;
+
+	}
+	70%{
+		background: url(../amafoto/MYPRO/system.jfif);
+		background-size: cover;
+		width: 70%;
+		box-shadow: 0px 0px 30px white;
+	}
+	80%{
+		background: url(../amafoto/MYPRO/then.jfif);
+		background-size: cover;
+		width: 30%;
+		box-shadow: 0px 0px 30px skyblue;
+	}
+	90%{
+		background: url(../amafoto/MYPRO/soft.jfif);
+		background-size: cover;
+		width: 100%;
+		box-shadow: 0px 0px 30px lightblue;
+	}
+	100%{
+		background: url(../amafoto/MYPRO/contents.jfif);
+
+	}
+}
+iframe{
+	width: 100%;
+	background-color: darkslategray;
+}

@@ -1,0 +1,24 @@
+*{
+	
+	
+}
+.on h1{
+	background: darkseagreen;
+}
+.on{
+	width: 800px;
+
+	background: darkolivegreen;
+	font-size: 1.6rem;
+}
+input{
+	width: 85%;
+	height: 30px;
+
+}
+.in{
+	background: skyblue;
+	width: 30%;
+	border-color: skyblue;
+	border-radius: 10px;
+}
